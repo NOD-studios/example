@@ -1,9 +1,9 @@
 'use strict';
 
-System.register(['source-map-support/register', './example'], function (_export, _context) {
+System.register(['source-map-support/register', 'babel-polyfill', './example'], function (_export, _context) {
   var Example, example;
   return {
-    setters: [function (_sourceMapSupportRegister) {}, function (_example) {
+    setters: [function (_sourceMapSupportRegister) {}, function (_babelPolyfill) {}, function (_example) {
       Example = _example.Example;
     }],
     execute: function () {

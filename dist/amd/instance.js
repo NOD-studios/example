@@ -1,4 +1,4 @@
-define(['exports', './example', 'source-map-support/register'], function (exports, _example) {
+define(['exports', './example', 'source-map-support/register', 'babel-polyfill'], function (exports, _example) {
   'use strict';
 
   Object.defineProperty(exports, "__esModule", {
@@ -10,4 +10,4 @@ define(['exports', './example', 'source-map-support/register'], function (export
   });
   example.options.console.log(example.options);
 });
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluc3RhbmNlLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7TUFHVyw0QkFBVSxxQkFBWTtBQUMvQixVQUFPLE1BQVA7R0FEbUIiLCJmaWxlIjoiaW5zdGFuY2UuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3NvdXJjZS1tYXAtc3VwcG9ydC9yZWdpc3Rlcic7XG5pbXBvcnQgeyBFeGFtcGxlIH0gZnJvbSAnLi9leGFtcGxlJztcblxuZXhwb3J0IGxldCBleGFtcGxlID0gbmV3IEV4YW1wbGUoe1xuICB0ZXN0IDogJ3Rlc3QnXG59KTtcblxuZXhhbXBsZS5vcHRpb25zLmNvbnNvbGUubG9nKGV4YW1wbGUub3B0aW9ucyk7XG4iXSwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluc3RhbmNlLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7TUFJVyw0QkFBVSxxQkFBWTtBQUMvQixVQUFPLE1BQVA7R0FEbUIiLCJmaWxlIjoiaW5zdGFuY2UuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3NvdXJjZS1tYXAtc3VwcG9ydC9yZWdpc3Rlcic7XG5pbXBvcnQgJ2JhYmVsLXBvbHlmaWxsJztcbmltcG9ydCB7IEV4YW1wbGUgfSBmcm9tICcuL2V4YW1wbGUnO1xuXG5leHBvcnQgbGV0IGV4YW1wbGUgPSBuZXcgRXhhbXBsZSh7XG4gIHRlc3QgOiAndGVzdCdcbn0pO1xuXG5leGFtcGxlLm9wdGlvbnMuY29uc29sZS5sb2coZXhhbXBsZS5vcHRpb25zKTtcbiJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==
