@@ -1,6 +1,6 @@
 {
   "name": "@nod/example",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Just an example @nod/module",
   "main": "dist/commonjs/index.js",
   "dependencies": {
