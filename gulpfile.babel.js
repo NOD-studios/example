@@ -1,4 +1,4 @@
-import "babel-polyfill";
+import 'babel-polyfill';
 import fs from 'fs';
 import del from 'del';
 import path from 'path';
@@ -146,7 +146,7 @@ gulp.task('build', gulp.series(
 gulp.task('run-instance', gulp.series('build', () => {
   let
     invoked = false,
-    process = childProcess.fork(path.join(paths.dist, 'commonjs', 'instance.js'));
+    process = childProcess.fork(path.join(paths.dist, 'commonjs', 'index.js'));
 
   return new Promise((resolve, reject) => {
 

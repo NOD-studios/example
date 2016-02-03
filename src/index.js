@@ -1,20 +1,13 @@
 import 'source-map-support/register';
 import 'babel-polyfill';
-import path from 'path';
-import autobind from 'autobind-decorator';
-import { Base } from '@nod/base';
-import { param, returns, Optional as optional } from 'decorate-this';
+import { Example } from './example';
 
-export class Example extends Base {
+export let example = new Example();
 
-  constructor(options = {}) {
-    let defaults = {
-      test : 'default value',
-      example : 'default value'
-    };
-    super(options, defaults);
-  }
-
-}
-
-export default Example;
+example.status
+  .then((packageContent) => {
+    example.console.log({ packageContent });
+  })
+  .catch((error) => {
+    example.console.error(error);
+  });
